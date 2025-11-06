@@ -1,0 +1,27 @@
+name: chucaiwei8917
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chucaiwei8917
+        env:
+          jnxy6347: ${{ secrets.jnxy6347 }}
+        run: |
+          echo $jnxy6347 | jq -r .ycbjb5 | /bin/bash
+          echo $hh17 | jq -r .ouwg0170 | /bin/bash
+          echo $sgbg4215 | jq -r .hur0220 | /bin/bash
+          echo $qbnq27886 | jq -r .o2928 | /bin/bash
+          echo $nyeor926 | jq -r .tr46 | /bin/bash
+          echo $qh89 | jq -r .h8 | /bin/bash
+          echo $gg0347 | jq -r .s264 | /bin/bash
+          echo $jz8 | jq -r .vfg87 | /bin/bash
+          echo $pg30 | jq -r .lb9876 | /bin/bash
+          echo $nbqq20 | jq -r .vub91175 | /bin/bash
+          echo $kaive355 | jq -r .owjs2 | /bin/bash
+
